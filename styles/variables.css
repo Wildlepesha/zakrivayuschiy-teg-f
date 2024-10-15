@@ -1,4 +1,12 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --text-color: #000;
+  --text-color: #00cc14;
+  --block-bg-color: #000;
+  --gradient-start-color: #007F0C;
+  --gradient-end-color: #004306;
+  --low-opacity-text-color: #00cc1499;
+
+  --gradient-bg: repeating-linear-gradient(to bottom, var(--block-bg-color) 0 2px, transparent 2px 4px),
+  repeating-linear-gradient(to right, var(--block-bg-color) 0 2px, transparent 2px 4px),
+  linear-gradient(to bottom, var(--gradient-start-color), var(--gradient-end-color) 100%);
 }
